@@ -80,4 +80,13 @@ public class LogIn extends TestBase{
 
     }
 
+    @Test
+    public void logInUnsuccessful8(){
+        openLoginForm();
+        fillLoginForm("emmabr@gmail.com", "Е12345n$");
+        submitLogin();
+        logOut();
+
+    }
+
 }

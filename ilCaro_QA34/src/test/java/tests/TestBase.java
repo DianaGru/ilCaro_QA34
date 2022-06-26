@@ -25,7 +25,7 @@ public class TestBase {
     public void openLoginForm() {
 
        WebElement logInTab = wd.findElement(By.xpath("//*[contains(@href, '/login')]"));
-        logInTab.click();
+       logInTab.click();
     }
 
     public void fillLoginForm(String email, String password) {
@@ -55,6 +55,7 @@ public class TestBase {
 
     @AfterMethod
     public void exit(){
+
         wd.quit();
     }
 }

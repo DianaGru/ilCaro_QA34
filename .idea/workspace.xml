@@ -17,8 +17,8 @@
       <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/reports/tests/test/packages/tests.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/TEST-tests.LogIn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/TEST-tests.LogIn.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ilCaro_QA34/src/test/java/tests/LogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/src/test/java/tests/LogIn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ilCaro_QA34/src/test/java/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/src/test/java/tests/TestBase.java" afterDir="false" />
     </list>

@@ -30,7 +30,8 @@ public class LogIn extends TestBase {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabrgmail.com", "E12345n$");
         // app.getHelperUser().submitLogin();
-        Assert.assertTrue(app.getHelperUser().isLogged());
+        Assert.assertFalse(app.getHelperUser().isLogged());
+      // Assert.assertTrue(app.getHelperUser().isAlertDisplayed());
 
     }
 
@@ -39,6 +40,8 @@ public class LogIn extends TestBase {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmailcom", "E12345n$");
         //app.getHelperUser().submitLogin();
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertDisplayed());
 
     }
 
@@ -47,6 +50,8 @@ public class LogIn extends TestBase {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.co", "E12345n$");
         // app.getHelperUser().submitLogin();
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertDisplayed());
 
     }
 
@@ -55,6 +60,8 @@ public class LogIn extends TestBase {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "E12345n");
         //app.getHelperUser().submitLogin();
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertDisplayed());
 
     }
 
@@ -63,6 +70,8 @@ public class LogIn extends TestBase {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "e12345n$");
         // app.getHelperUser().submitLogin();
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertDisplayed());
 
     }
 
@@ -71,6 +80,8 @@ public class LogIn extends TestBase {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "E12345N$");
         // app.getHelperUser().submitLogin();
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertDisplayed());
 
     }
 
@@ -79,6 +90,8 @@ public class LogIn extends TestBase {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "E54321n$");
         //  app.getHelperUser().submitLogin();
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertDisplayed());
 
     }
 
@@ -87,6 +100,8 @@ public class LogIn extends TestBase {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "Е12345n$");
         // app.getHelperUser().submitLogin();
+        Assert.assertFalse(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isAlertDisplayed());
 
     }
 

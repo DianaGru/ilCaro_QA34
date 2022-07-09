@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.LogIn" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-09T09:59:51" hostname="DESKTOP-B443DO6" time="0.382">
+<testsuite name="tests.LogIn" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-09T11:30:43" hostname="DESKTOP-B443DO6" time="0.944">
   <properties/>
-  <testcase name="logInUnsuccessful1" classname="tests.LogIn" time="0.382"/>
+  <testcase name="logInSuccess" classname="tests.LogIn" time="0.944"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

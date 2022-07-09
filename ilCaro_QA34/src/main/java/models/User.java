@@ -3,15 +3,14 @@ package models;
 public class User {
 
     private String name;
-    private String lastName;
+    private  String lastName;
     private String email;
     private String password;
-    private String phoneNumber;
+    private String phone;
 
     public User setName(String name) {
         this.name = name;
         return this;
-
     }
 
     public User setLastName(String lastName) {
@@ -29,11 +28,10 @@ public class User {
         return this;
     }
 
-    public User setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public User setPhone(String phone) {
+        this.phone = phone;
         return this;
     }
-
 
     public String getName() {
         return name;
@@ -51,11 +49,9 @@ public class User {
         return password;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getPhone() {
+        return phone;
     }
-
-
 
     @Override
     public String toString() {
@@ -64,7 +60,7 @@ public class User {
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
+                ", phone='" + phone + '\'' +
                 '}';
     }
 }

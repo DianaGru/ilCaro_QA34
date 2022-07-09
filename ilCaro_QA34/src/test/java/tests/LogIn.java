@@ -20,7 +20,7 @@ public class LogIn extends TestBase {
 
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "E12345n$");
-        app.getHelperUser().submitLogin();
+        app.getHelperUser().submit();
         Assert.assertTrue(app.getHelperUser().isLogged());
 
     }

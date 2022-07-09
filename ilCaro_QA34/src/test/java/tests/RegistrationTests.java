@@ -2,18 +2,24 @@ package tests;
 
 import models.User;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase{
 
-    @BeforeTest
+    @BeforeMethod
     public void preCondition(){
         if (app.getHelperUser().isLoggedRegistration()) {
             app.getHelperUser().logOutRegistration();
         }
     }
 
+    @AfterMethod
+    public void postCondition() {
+        app.getHelperUser().clickOk();
+    }
 
 
     @Test
@@ -25,8 +31,8 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
-        Assert.assertEquals(app.getMessage(),"Registered");
-        app.getHelperUser().clickOk();
+        Assert.assertEquals(app.getHelperUser().getMessage(),"Registered");
+
 
     }
 
@@ -39,7 +45,25 @@ public class RegistrationTests extends TestBase{
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
         app.getHelperUser().submit();
-        Assert.assertEquals(app.getMessage(), "Registered");
-        app.getHelperUser().clickOk();
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Registered");
+
     }
+
+    @Test
+    public void registrationWrongPasswordFormat(){
+        User user = new User()
+                .setName("Talia")
+                .setLastName("Show")
+                .setEmail("talia@gmail.com")
+                .setPassword("Talia");
+
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().checkPolicyXY();
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordFormatDisplayed());
+        Assert.assertTrue(app.getHelperUser().isErrorPasswordSizeDisplayed());
+        Assert.assertTrue(app.getHelperUser().isYallaButtonActive());
+
+    }
+
 }

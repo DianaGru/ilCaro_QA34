@@ -1,54 +1,57 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class LogIn extends TestBase{
+public class LogIn extends TestBase {
 
     @BeforeMethod
-    public void preCondition(){
+    public void preCondition() {
 
-        if(app.getHelperUser().isLogged()){
+        if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logOut();
         }
     }
 
 
     @Test
-    public void logInSuccess(){
+    public void logInSuccess() {
 
-       app.getHelperUser().openLoginForm();
-       app.getHelperUser().fillLoginForm("emmabr@gmail.com", "E12345n$");
-       app.getHelperUser().submitLogin();
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLoginForm("emmabr@gmail.com", "E12345n$");
+        app.getHelperUser().submitLogin();
+        Assert.assertTrue(app.getHelperUser().isLogged());
 
     }
 
     @Test
-    public void logInUnsuccessful1(){
+    public void logInUnsuccessful1() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabrgmail.com", "E12345n$");
-       // app.getHelperUser().submitLogin();
+        // app.getHelperUser().submitLogin();
+        Assert.assertTrue(app.getHelperUser().isLogged());
 
     }
 
     @Test
-    public void logInUnsuccessful2(){
+    public void logInUnsuccessful2() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmailcom", "E12345n$");
-       //app.getHelperUser().submitLogin();
+        //app.getHelperUser().submitLogin();
 
     }
 
     @Test
-    public void logInUnsuccessful3(){
+    public void logInUnsuccessful3() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.co", "E12345n$");
-       // app.getHelperUser().submitLogin();
+        // app.getHelperUser().submitLogin();
 
     }
 
     @Test
-    public void logInUnsuccessful4(){
+    public void logInUnsuccessful4() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "E12345n");
         //app.getHelperUser().submitLogin();
@@ -56,34 +59,34 @@ public class LogIn extends TestBase{
     }
 
     @Test
-    public void logInUnsuccessful5(){
+    public void logInUnsuccessful5() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "e12345n$");
-       // app.getHelperUser().submitLogin();
+        // app.getHelperUser().submitLogin();
 
     }
 
     @Test
-    public void logInUnsuccessful6(){
+    public void logInUnsuccessful6() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "E12345N$");
-       // app.getHelperUser().submitLogin();
+        // app.getHelperUser().submitLogin();
 
     }
 
     @Test
-    public void logInUnsuccessful7(){
+    public void logInUnsuccessful7() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "E54321n$");
-      //  app.getHelperUser().submitLogin();
+        //  app.getHelperUser().submitLogin();
 
     }
 
     @Test
-    public void logInUnsuccessful8(){
+    public void logInUnsuccessful8() {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "Е12345n$");
-       // app.getHelperUser().submitLogin();
+        // app.getHelperUser().submitLogin();
 
     }
 

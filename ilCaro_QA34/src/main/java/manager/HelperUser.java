@@ -26,6 +26,11 @@ public class HelperUser extends HelperBase {
         type(By.cssSelector("#password"), password);
     }
 
+    public void fillLoginForm(User user){
+        type(By.cssSelector("#email"), user.getEmail());
+        type(By.cssSelector("#password"), user.getPassword());
+    }
+
     public boolean isLogged() {
         List<WebElement> list = wd.findElements(By.xpath("//*[contains(@href, '/logout')]"));
         return list.size() > 0;
@@ -90,13 +95,7 @@ public class HelperUser extends HelperBase {
         click(By.xpath("//a[text()=' Logout ']"));
     }
 
-    public String getMessage() {
-        pause(2000);
-        new WebDriverWait(wd, Duration.ofSeconds(5))
-                .until((ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector("div.dialog-container")))));
-        String message = wd.findElement(By.cssSelector("div.dialog-container h1")).getText();
-        return message;
-    }
+
 
 
     public boolean isErrorPasswordFormatDisplayed() {
@@ -123,6 +122,13 @@ public class HelperUser extends HelperBase {
         boolean disabled = isElementPresent(By.cssSelector(("button[disabled]")));
         boolean enabled = wd.findElement(By.cssSelector("[type=submit]")).isEnabled();
         return disabled&&!enabled;
+    }
+
+    public void login(User user) {
+        openLoginForm();
+        fillLoginForm(user);
+        submit();
+        clickOk();
     }
 }
 

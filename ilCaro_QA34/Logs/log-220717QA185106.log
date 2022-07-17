@@ -1,0 +1,17 @@
+18:51:08.715  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+18:51:10.080  INFO  manager.ApplicationManager - Current url --> https://ilcarro-1578153671498.web.app/
+18:51:10.113  INFO  tests.TestBase - Start test with name -->logInSuccess
+18:51:20.201  INFO  tests.TestBase - Test start with email: 'emmabr@gmail.com' & password 'E12345n$' 
+18:51:20.202  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //*[contains(@href, '/login')]
+18:51:20.247  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[contains(@href, '/login')]
+18:51:20.302  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: #email
+18:51:20.340  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: #email
+18:51:20.495  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: #password
+18:51:20.528  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: #password
+18:51:20.656  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: button[type='submit']
+18:51:20.703  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+18:51:20.792  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: button[type='submit']
+18:51:20.821  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+18:51:21.339  INFO  tests.TestBase - Test passed
+18:51:21.372  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //button[text()='Ok']
+18:51:21.392  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[text()='Ok']

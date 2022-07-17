@@ -12,17 +12,21 @@ public class LogIn extends TestBase {
 
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logOut();
+            logger.info("Test start with Log out");
         }
     }
 
 
     @Test
     public void logInSuccess() {
+        logger.info("Test start with email: 'emmabr@gmail.com' & password 'E12345n$' ");
 
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "E12345n$");
         app.getHelperUser().submit();
-        Assert.assertTrue(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isLogged(), "Logged in");
+        logger.info("Test passed");
+
 
     }
 
@@ -32,7 +36,7 @@ public class LogIn extends TestBase {
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("emmabr@gmail.com", "E12345n$");
         app.getHelperUser().submit();
-        Assert.assertTrue(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isLogged(), "Logged in");
 
     }
     @AfterMethod

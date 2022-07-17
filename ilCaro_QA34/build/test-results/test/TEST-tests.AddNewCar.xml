@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.AddNewCar" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-10T16:47:32" hostname="DESKTOP-B443DO6" time="9.934">
-  <properties/>
-  <testcase name="addNewCarSuccess" classname="tests.AddNewCar" time="9.934"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

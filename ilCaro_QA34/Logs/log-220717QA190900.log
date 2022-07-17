@@ -1,0 +1,7 @@
+19:09:03.157  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+19:09:14.755  INFO  manager.ApplicationManager - Current url --> https://ilcarro-1578153671498.web.app/
+19:09:14.808  INFO  tests.TestBase - Start test with name -->logInSuccess
+19:09:24.840  INFO  tests.TestBase - Test start with email: 'emmabr@gmail.com' & password 'E12345n$' 
+19:09:24.841  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //*[contains(@href, '/login')]
+19:09:34.900  INFO  manager.MyListener - The name of method with error -->findElement
+19:09:34.901  INFO  manager.MyListener - We have a problem with -->java.lang.reflect.InvocationTargetException

@@ -1,0 +1,17 @@
+20:39:57.177  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+20:39:58.472  INFO  manager.ApplicationManager - Current url --> https://ilcarro-1578153671498.web.app/
+20:39:58.501  INFO  tests.TestBase - Start test with name -->searchCurrentMonth
+20:39:58.503  INFO  manager.MyListener - WebDriver starts to find element -->By.id: city
+20:39:58.526  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+20:39:58.631  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: .pac-item
+20:39:58.967  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+20:39:59.513  INFO  manager.MyListener - WebDriver starts to find element -->By.id: dates
+20:39:59.542  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+20:39:59.612  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //div[text()=' 25 ']
+20:39:59.629  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 25 ']
+20:39:59.680  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //div[text()=' 24 ']
+20:39:59.713  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 24 ']
+20:39:59.779  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: button[type='submit']
+20:39:59.810  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+20:39:59.849  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: button[type='submit']
+20:39:59.868  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']

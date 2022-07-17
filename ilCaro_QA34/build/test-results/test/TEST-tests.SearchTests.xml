@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.SearchTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-17T17:39:58" hostname="DESKTOP-B443DO6" time="1.437">
+  <properties/>
+  <testcase name="searchCurrentMonth" classname="tests.SearchTests" time="1.437"/>
+  <system-out><![CDATA[20:39:58.501  INFO  tests.TestBase - Start test with name -->searchCurrentMonth
+20:39:58.503  INFO  manager.MyListener - WebDriver starts to find element -->By.id: city
+20:39:58.526  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+20:39:58.631  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: .pac-item
+20:39:58.967  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+20:39:59.513  INFO  manager.MyListener - WebDriver starts to find element -->By.id: dates
+20:39:59.542  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+20:39:59.612  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //div[text()=' 25 ']
+20:39:59.629  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 25 ']
+20:39:59.680  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //div[text()=' 24 ']
+20:39:59.713  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 24 ']
+20:39:59.779  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: button[type='submit']
+20:39:59.810  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+20:39:59.849  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: button[type='submit']
+20:39:59.868  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

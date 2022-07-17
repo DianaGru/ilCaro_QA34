@@ -23,7 +23,10 @@ public class HelperUser extends HelperBase {
 
     public void fillLoginForm(String email, String password) {
         type(By.cssSelector("#email"), email);
-        type(By.cssSelector("#password"), password);
+        takeScreenShots("C:\\Users\\Diana\\QA34 Automatization\\ilCaro_QA34\\ilCaro_QA34\\src\\test\\screenShots/screen-1.png");
+        type(By.cssSelector("#pasword"), password);
+
+
     }
 
     public void fillLoginForm(User user){

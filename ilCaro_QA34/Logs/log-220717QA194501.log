@@ -1,0 +1,18 @@
+19:45:04.361  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+19:45:05.678  INFO  manager.ApplicationManager - Current url --> https://ilcarro-1578153671498.web.app/
+19:45:05.712  INFO  tests.TestBase - Start test with name -->logInSuccess2
+19:45:15.797  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //*[contains(@href, '/login')]
+19:45:15.842  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //*[contains(@href, '/login')]
+19:45:15.907  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: #email
+19:45:15.936  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: #email
+19:45:16.087  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: #pasword
+19:45:26.143  INFO  manager.MyListener - The name of method with error -->findElement
+19:45:26.150  INFO  manager.MyListener - We have a problem with -->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#pasword"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-B443DO6', ip: '10.0.0.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cfdeba8e963d977e6912f9a53ab0df0e, findElement {using=css selector, value=#pasword}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Diana\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51540}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51540/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cfdeba8e963d977e6912f9a53ab0df0e

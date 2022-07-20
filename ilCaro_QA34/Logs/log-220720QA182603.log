@@ -1,0 +1,22 @@
+18:26:06.137  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+18:26:08.847  INFO  manager.ApplicationManager - Current url --> https://ilcarro-1578153671498.web.app/
+18:26:08.878  INFO  tests.TestBase - Start test with name -->searchCurrentYear
+18:26:08.880  INFO  manager.MyListener - WebDriver starts to find element -->By.id: city
+18:26:08.902  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+18:26:09.033  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: .pac-item
+18:26:09.373  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+18:26:09.917  INFO  manager.MyListener - WebDriver starts to find element -->By.id: dates
+18:26:09.936  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+18:26:10.005  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //button[@aria-label='Next month']
+18:26:10.027  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //button[@aria-label='Next month']
+18:26:10.083  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //div[text()=' &s ']
+18:26:20.166  INFO  manager.MyListener - The name of method with error -->findElement
+18:26:20.170  INFO  manager.MyListener - We have a problem with -->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()=' &s ']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-B443DO6', ip: '10.0.0.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7fd32d9d9cffc0bfa6a57b173dcb81b1, findElement {using=xpath, value=//div[text()=' &s ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Diana\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54586/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fd32d9d9cffc0bfa6a57b173dcb81b1

@@ -1,0 +1,33 @@
+18:44:47.734  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+18:44:50.374  INFO  manager.ApplicationManager - Current url --> https://ilcarro-1578153671498.web.app/
+18:44:50.413  INFO  tests.TestBase - Start test with name -->searchCurrentMonth
+18:44:50.415  INFO  manager.MyListener - WebDriver starts to find element -->By.id: city
+18:44:50.441  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+18:44:50.609  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: .pac-item
+18:44:50.966  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+18:44:51.519  INFO  manager.MyListener - WebDriver starts to find element -->By.id: dates
+18:44:51.538  INFO  manager.MyListener - WebDriver found element by locator -->By.id: dates
+18:44:51.627  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //div[text()=' 25 ']
+18:44:51.656  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 25 ']
+18:44:51.722  INFO  manager.MyListener - WebDriver starts to find element -->By.xpath: //div[text()=' 24 ']
+18:44:51.768  INFO  manager.MyListener - WebDriver found element by locator -->By.xpath: //div[text()=' 24 ']
+18:44:51.830  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: button[type='submit']
+18:44:51.863  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+18:44:51.921  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: button[type='submit']
+18:44:51.937  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
+18:44:53.047  INFO  tests.TestBase - Start test with name -->searchCurrentYear
+18:44:53.047  INFO  manager.MyListener - WebDriver starts to find element -->By.id: city
+18:44:53.070  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+18:44:53.219  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: .pac-item
+18:44:53.444  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+18:44:53.988  INFO  manager.MyListener - WebDriver starts to find element -->By.id: dates
+18:45:04.061  INFO  manager.MyListener - The name of method with error -->findElement
+18:45:04.067  INFO  manager.MyListener - We have a problem with -->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-B443DO6', ip: '10.0.0.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5c42e3ebe76d4f2cbecf79de90867c92, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\Diana\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55537/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c42e3ebe76d4f2cbecf79de90867c92

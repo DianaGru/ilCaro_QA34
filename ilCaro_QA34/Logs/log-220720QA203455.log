@@ -1,0 +1,9 @@
+20:34:58.663  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+20:35:04.589  INFO  manager.ApplicationManager - Current url --> https://ilcarro-1578153671498.web.app/
+20:35:04.649  INFO  tests.TestBase - Start test with name -->searchAnyPeriod
+20:35:04.652  INFO  manager.MyListener - WebDriver starts to find element -->By.id: city
+20:35:04.685  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
+20:35:05.327  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: .pac-item
+20:35:05.359  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .pac-item
+20:35:05.414  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: .logo
+20:35:05.440  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .logo

@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9b6f749-c72b-4c84-8fef-4c57dedfe834" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ilCaro_QA34/src/main/java/manager/HelperSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ilCaro_QA34/src/test/java/tests/SearchTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/classes/java/main/manager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/classes/java/main/manager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/classes/java/main/manager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/classes/java/main/manager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/classes/java/main/manager/HelperUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/classes/java/main/manager/HelperUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/reports/tests/test/classes/tests.LogIn.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/reports/tests/test/packages/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/reports/tests/test/packages/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/TEST-tests.LogIn.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/src/main/java/manager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/src/main/java/manager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/src/main/java/manager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/src/main/java/manager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/src/main/java/manager/HelperUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/src/main/java/manager/HelperUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/src/main/java/manager/HelperSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/src/main/java/manager/HelperSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ilCaro_QA34/src/test/java/tests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ilCaro_QA34/src/test/java/tests/SearchTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,21 +52,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Diana/QA34 Automatization/QA34_PhoneBook_Lesson&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Diana/QA34 Automatization/ilCaro_QA34"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Diana\QA34 Automatization\ilCaro_QA34" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchTests.searchCurrentMonth">
-    <configuration name="AddNewCar" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.SearchTests.searchCurrentYear2">
+    <configuration name="SearchTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/ilCaro_QA34" />
@@ -94,7 +79,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.AddNewCar&quot;" />
+            <option value="&quot;tests.SearchTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -104,7 +89,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AddNewCar.addNewCarSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchTests.searchAnyPeriod" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/ilCaro_QA34" />
@@ -117,7 +102,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.AddNewCar.addNewCarSuccess&quot;" />
+            <option value="&quot;tests.SearchTests.searchAnyPeriod&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -127,7 +112,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LogIn.logInSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchTests.searchCurrentYear" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/ilCaro_QA34" />
@@ -140,7 +125,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.LogIn.logInSuccess&quot;" />
+            <option value="&quot;tests.SearchTests.searchCurrentYear&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -150,7 +135,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LogIn.logInSuccess2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchTests.searchCurrentYear2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/ilCaro_QA34" />
@@ -163,7 +148,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.LogIn.logInSuccess2&quot;" />
+            <option value="&quot;tests.SearchTests.searchCurrentYear2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -173,7 +158,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SearchTests.searchCurrentMonth" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchTests.searchCurrentYearLocalDate" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/ilCaro_QA34" />
@@ -186,7 +171,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.SearchTests.searchCurrentMonth&quot;" />
+            <option value="&quot;tests.SearchTests.searchCurrentYearLocalDate&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -198,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SearchTests.searchCurrentMonth" />
-        <item itemvalue="Gradle.LogIn.logInSuccess" />
-        <item itemvalue="Gradle.LogIn.logInSuccess2" />
-        <item itemvalue="Gradle.AddNewCar.addNewCarSuccess" />
-        <item itemvalue="Gradle.AddNewCar" />
+        <item itemvalue="Gradle.SearchTests.searchCurrentYear2" />
+        <item itemvalue="Gradle.SearchTests.searchAnyPeriod" />
+        <item itemvalue="Gradle.SearchTests.searchCurrentYearLocalDate" />
+        <item itemvalue="Gradle.SearchTests" />
+        <item itemvalue="Gradle.SearchTests.searchCurrentYear" />
       </list>
     </recent_temporary>
   </component>

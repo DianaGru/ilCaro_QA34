@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.SearchTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-07-20T18:01:01" hostname="DESKTOP-B443DO6" time="3.447">
-  <properties/>
-  <testcase name="searchCurrentYear2" classname="tests.SearchTests" time="3.447"/>
-  <system-out><![CDATA[21:01:01.405  INFO  tests.TestBase - Start test with name -->searchCurrentYear2
+21:00:55.953  INFO  manager.ApplicationManager - All Tests run in Chrome Driver
+21:01:01.371  INFO  manager.ApplicationManager - Current url --> https://ilcarro-1578153671498.web.app/
+21:01:01.405  INFO  tests.TestBase - Start test with name -->searchCurrentYear2
 21:01:01.408  INFO  manager.MyListener - WebDriver starts to find element -->By.id: city
 21:01:01.433  INFO  manager.MyListener - WebDriver found element by locator -->By.id: city
 21:01:02.553  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: .pac-item
@@ -23,9 +21,5 @@
 21:01:03.177  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
 21:01:03.253  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: button[type='submit']
 21:01:03.273  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: button[type='submit']
-https://ilcarro-1578153671498.web.app/search/results?city=Haifa&startDate=2022-08-10%2000:00&endDate=2022-10-20%2000:00
 21:01:04.855  INFO  manager.MyListener - WebDriver starts to find element -->By.cssSelector: .logo
 21:01:04.871  INFO  manager.MyListener - WebDriver found element by locator -->By.cssSelector: .logo
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
